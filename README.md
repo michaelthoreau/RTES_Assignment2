@@ -5,7 +5,7 @@
 
 The purpose of this assignment is to take a deep dive into how abstract code we write is interpreted by the compiler. You will get hands on with writing regular programming and interfacing it directly into the assembly language. 
 
-All questions should be answered by modifying the main.c file and the helpers.S assembly file; Add comments and code to the files where required and submit in a zip on NYU Classes.
+All questions should be answered by modifying the main.cpp file and the helpers.S assembly file; Add comments and code to the files where required and submit in a zip on NYU Classes.
 
 The assignment will be graded according to the following:
 
@@ -20,7 +20,7 @@ The assignment will be graded according to the following:
 
 ### Instructions
 
-Create a new project in platformIO as demonstrated in class. Copy the code from main.c and helpers.S in this repository to your project and modify to complete each part.
+Create a new project in platformIO as demonstrated in class. Copy the code from main.cpp and helpers.S in this repository to your project and modify to complete each part.
 
 
 <br />
