@@ -5,7 +5,6 @@
 */
 
 #include <mbed.h>
-#include <USBSerial.h>
 
 // Function Prototypes
 void part1();
@@ -21,8 +20,6 @@ DigitalOut led2(LED2);
 extern "C" int asm_sub(int a, int b);
 extern "C" uint32_t asm_led(uint32_t a);
 
-
-USBSerial serial;
 
 /* main function for Assignment 2 - comment out parts you aren't currently working on */
 int main() {
@@ -50,7 +47,7 @@ int main() {
 void part1() {
 
 		int result = asm_sub(2,1);
-		serial.printf("2-1 = %d\n\r",result);
+		printf("2-1 = %d\n\r",result);
 
 }
 
@@ -106,5 +103,5 @@ void extension() {
 
 
 	// print the result
-	serial.printf("1+2+3+4+5+6 = : %d\n\r", result);
+	printf("1+2+3+4+5+6 = : %d\n\r", result);
 }
